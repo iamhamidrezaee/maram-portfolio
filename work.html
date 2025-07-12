@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work - Maram Amiryan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="work-page-new">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">HOME</a></li>
+                <li><a href="about.html" class="nav-link">ABOUT</a></li>
+                <li><a href="work.html" class="nav-link active">WORK</a></li>
+                <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="work-content">
+        <h1 class="work-main-title">
+            <span class="artist-name">Maram Amiryan</span>
+            <span class="subtitle">WORKS</span>
+        </h1>
+
+        <section class="services-section">
+            <div class="service-item">
+                <h2 class="service-title">Private Tutelage</h2>
+                <p class="service-description">
+                    I dedicate my time to students for intensive piano mentorship. This is a program designed for the committed, focusing on advanced technique and profound musical interpretation.
+                </p>
+            </div>
+            <div class="service-item">
+                <h2 class="service-title">Artistic Alliances</h2>
+                <p class="service-description">
+                    I engage in artistic collaborations that promise to be groundbreaking. If you are an artist who operates at the edge of your craft and seeks to create something truly new, we may have something to discuss.
+                </p>
+            </div>
+            <div class="service-item">
+                <h2 class="service-title">Concert Engagements</h2>
+                <p class="service-description">
+                     I seek out opportunities that are not just performances, but experiences, and I make sure to deliver nothing but perfection.
+                </p>
+            </div>
+        </section>
+
+        <div class="works-grid">
+            <div class="grid-item" data-video-src="maram-performance-1.mp4">
+                <video class="grid-video-thumbnail" src="maram-performance-1.mp4" muted playsinline preload="metadata"></video>
+                <div class="video-overlay-light"></div>
+            </div>
+            <div class="grid-item" data-video-src="maram-performance-2.mp4">
+                <video class="grid-video-thumbnail" src="maram-performance-2.mp4" muted playsinline preload="metadata"></video>
+                <div class="video-overlay-light"></div>
+            </div>
+            <div class="grid-item" data-video-src="maram-performance-3.mp4">
+                <video class="grid-video-thumbnail" src="maram-performance-3.mp4" muted playsinline preload="metadata"></video>
+                <div class="video-overlay-light"></div>
+            </div>
+            <div class="grid-item" data-video-src="maram-performance-4.mp4">
+                <video class="grid-video-thumbnail" src="maram-performance-4.mp4" muted playsinline preload="metadata"></video>
+                <div class="video-overlay-light"></div>
+            </div>
+            <div class="grid-item" data-video-src="maram-performance-5.mp4">
+                <video class="grid-video-thumbnail" src="maram-performance-5.mp4" muted playsinline preload="metadata"></video>
+                <div class="video-overlay-light"></div>
+            </div>
+            <div class="grid-item" data-video-src="maram-performance-6.mp4">
+                <video class="grid-video-thumbnail" src="maram-performance-6.mp4" muted playsinline preload="metadata"></video>
+                <div class="video-overlay-light"></div>
+            </div>
+            <div class="grid-item" data-video-src="maram-performance-7.mp4">
+                <video class="grid-video-thumbnail" src="maram-performance-7.mp4" muted playsinline preload="metadata"></video>
+                <div class="video-overlay-light"></div>
+            </div>
+            <div class="grid-item" data-video-src="maram-performance-8.mp4">
+                <video class="grid-video-thumbnail" src="maram-performance-8.mp4" muted playsinline preload="metadata"></video>
+                <div class="video-overlay-light"></div>
+            </div>
+        </div>
+    </main>
+
+    <div id="video-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <video id="modal-video" width="100%" controls>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer footer-inverted">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>MARAM AMIRYAN</h3>
+                <p>©2025 Maram Amiryan</p>
+                <p>All rights reserved</p>
+            </div>
+            
+            <div class="footer-center">
+                <div class="footer-quote">
+                    <p class="quote-text">"There is no substitute for the contentment I feel every time I touch and hear the beautiful sound of music."</p>
+                    <p class="quote-attribution">—Maram Amiryan</p>
+                </div>
+            </div>
+            
+            <div class="footer-right">
+                <div class="footer-section">
+                    <h4>CONTACT</h4>
+                    <p><a href="mailto:mataee@umich.edu">EMAIL</a></p>
+                    <p><a href="https://www.instagram.com/sottovoce.piano/" target="_blank">INSTAGRAM</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
